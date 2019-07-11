@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ELS-vS-lRP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="myF-gD-AQR">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -104,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="769.56521739130437" y="89.732142857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--Master View Controller-->
         <scene sceneID="4pk-AX-MK1">
             <objects>
-                <viewController id="36s-dz-t9R" sceneMemberID="viewController">
+                <viewController id="36s-dz-t9R" customClass="MasterViewController" customModule="Class04" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3bf-uZ-Wd3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,10 +172,10 @@
             </objects>
             <point key="canvasLocation" x="2234.7826086956525" y="89.732142857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--My Map View Controller-->
         <scene sceneID="qzq-CW-tHL">
             <objects>
-                <viewController id="myF-gD-AQR" sceneMemberID="viewController">
+                <viewController id="myF-gD-AQR" customClass="MyMapViewController" customModule="Class04" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a8h-iU-McQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,10 +198,10 @@
             </objects>
             <point key="canvasLocation" x="3115.9420289855075" y="-242.41071428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--My Web View Controller-->
         <scene sceneID="uSq-eb-cyM">
             <objects>
-                <viewController id="dsH-Kv-vC6" sceneMemberID="viewController">
+                <viewController id="dsH-Kv-vC6" customClass="MyWebViewController" customModule="Class04" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rz3-Ac-1rq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
